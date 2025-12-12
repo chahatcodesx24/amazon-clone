@@ -110,4 +110,47 @@ font-size: 29px;
 .panel {
     height: 40px;
     background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.panel-options p {
+    display: inline;
+    margin-left: 10px;
+}
+
+.panel-options {
+    width: 70%;
+    font-size: 0.86rem;
+}
+
+.panel-deals {
+    font-size: 0.88rem;
+    font-weight: 700;
+}
+
+.hero-section {
+    background-image: url("images/hero_image.jpg");
+    background-size: cover;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.hero-message {
+    background-color: white;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 0.90rem;
+    width: 80%;
+    margin-bottom: 25px;
+}
+
+.hero-message a {
+    color: #007185;
 }
